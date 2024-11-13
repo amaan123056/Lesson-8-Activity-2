@@ -1,0 +1,9 @@
+set1={1,1,2,2,3,3,4,4}
+print(set1)
+set2={1,7,3,5}
+set2.add(8)
+print(set2)
+print(set1.difference(set2))
+print(set1.intersection(set2))
+print(set1.union(set2))
+print(set1.symmetric_difference(set2))
